@@ -1,0 +1,13 @@
+# Data Manipulation and Analysis
+numpy
+pandas
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning and Modeling
+scikit-learn
+
+# Model Serialization
+joblib
