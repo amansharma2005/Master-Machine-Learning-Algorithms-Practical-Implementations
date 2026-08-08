@@ -70,9 +70,16 @@ graph TD
     
     AllModels --> Save[Model Persistence: Pickle & Joblib]
     
-    classDef default fill:#fafafa,stroke:#ccc,stroke-width:1px;
-    classDef header fill:#e8f0fe,stroke:#4285f4,stroke-width:2px;
+    classDef default fill:#f3f4f6,stroke:#d1d5db,stroke-width:1px,color:#1f2937;
+    classDef header fill:#2563eb,stroke:#1d4ed8,stroke-width:2px,color:#ffffff;
+    classDef regression fill:#fef3c7,stroke:#f59e0b,stroke-width:1px,color:#78350f;
+    classDef classification fill:#d1fae5,stroke:#10b981,stroke-width:1px,color:#065f46;
+    classDef unsupervised fill:#e0f2fe,stroke:#0ea5e9,stroke-width:1px,color:#075985;
+    
     class Start header;
+    class Reg,LinReg,Regulate,GradDesc regression;
+    class Class,LogReg,Tree,SVM,NB,KNN classification;
+    class Unsupervised,KMeans,PCA unsupervised;
 ```
 
 ---
